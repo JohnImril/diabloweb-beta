@@ -365,10 +365,17 @@ module.exports = function (webpackEnv) {
 					},
 				},
 				{
-					test: /\.jscc$/,
+					test: /Diablo\.jscc$/,
 					loader: "exports-loader",
 					options: {
 						exports: "default Diablo",
+					},
+				},
+				{
+					test: /DiabloSpawn\.jscc$/,
+					loader: "exports-loader",
+					options: {
+						exports: "default DiabloSpawn",
 					},
 				},
 				{
@@ -589,6 +596,7 @@ module.exports = function (webpackEnv) {
 								/\.(js|mjs|jsx|ts|tsx)$/,
 								/\.html$/,
 								/\.json$/,
+								/\.jscc$/,
 							],
 							type: "asset/resource",
 						},

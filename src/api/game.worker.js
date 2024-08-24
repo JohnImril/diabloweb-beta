@@ -460,7 +460,7 @@ async function init_game(mpq, spawn, offscreen) {
 
 	progress("Initializing...");
 
-	const vers = process.env.VERSION.match(/(\d+)\.(\d+)\.(\d+)/);
+	const vers = "1.0.0".match(/(\d+)\.(\d+)\.(\d+)/);
 
 	//wasm._SNet_InitWebsocket();
 	wasm._DApi_Init(
