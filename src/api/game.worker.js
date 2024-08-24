@@ -399,6 +399,7 @@ async function initWasm(spawn, progress) {
 		responseType: "arraybuffer",
 		onDownloadProgress: progress,
 	});
+
 	const result = await (spawn ? SpawnModule : DiabloModule)({
 		wasmBinary: binary.data,
 	}).ready;

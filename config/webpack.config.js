@@ -356,6 +356,22 @@ module.exports = function (webpackEnv) {
 					loader: require.resolve("source-map-loader"),
 				},
 				{
+					test: /\.worker\.js$/,
+					use: {
+						loader: "worker-loader",
+						options: {
+							filename: "[name].[contenthash].worker.js",
+						},
+					},
+				},
+				{
+					test: /\.jscc$/,
+					loader: "exports-loader",
+					options: {
+						exports: "default Diablo",
+					},
+				},
+				{
 					// "oneOf" will traverse all following loaders until one will
 					// match the requirements. When no loader matches it will fall
 					// back to the "file" loader at the end of the loader list.
