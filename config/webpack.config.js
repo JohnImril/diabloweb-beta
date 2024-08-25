@@ -716,7 +716,6 @@ module.exports = function (webpackEnv) {
 				new WorkboxWebpackPlugin.GenerateSW({
 					clientsClaim: true,
 					exclude: [/\.map$/, /asset-manifest\.json$/],
-					importWorkboxFrom: "cdn",
 					navigateFallback:
 						paths.publicUrlOrPath.slice(0, -1) + "/index.html",
 					navigateFallbackBlacklist: [
