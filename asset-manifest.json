@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/diabloweb-beta/static/css/main.e1368972.css",
-    "main.js": "/diabloweb-beta/static/js/main.ae1f4ac0.js",
+    "main.js": "/diabloweb-beta/static/js/main.981ba230.js",
     "static/media/Diablo.wasm": "/diabloweb-beta/static/media/Diablo.cb56740f765ad6b7b02d.wasm",
     "static/media/DiabloSpawn.wasm": "/diabloweb-beta/static/media/DiabloSpawn.652e7f070a6d92fe0890.wasm",
     "static/media/MpqCmp.wasm": "/diabloweb-beta/static/media/MpqCmp.702f81fdb4c1dce808b7.wasm",
-    "static/media/DiabloSpawn.jscc": "/diabloweb-beta/static/media/DiabloSpawn.e3ab5579951683ef77c9.jscc",
-    "static/media/Diablo.jscc": "/diabloweb-beta/static/media/Diablo.b95ca9fe86d52eb2d34f.jscc",
-    "static/media/MpqCmp.jscc": "/diabloweb-beta/static/media/MpqCmp.297eba67257ec342b8de.jscc",
+    "game.worker.worker.js": "/diabloweb-beta/game.worker.2540bef6f3b89549a14f.worker.js",
     "static/media/ListFile.txt": "/diabloweb-beta/static/media/ListFile.0c414eeda7539c47f7fa.txt",
-    "game.worker.worker.js": "/diabloweb-beta/game.worker.065fedb355e563bb3bdf.worker.js",
+    "mpqcmp.worker.worker.js": "/diabloweb-beta/mpqcmp.worker.58ffc23fc10a973e8c42.worker.js",
     "static/media/move.svg": "/diabloweb-beta/static/media/move.9432732237149ec70f0f.svg",
     "static/media/rmb.svg": "/diabloweb-beta/static/media/rmb.0dc86554e0ef27086780.svg",
     "static/media/f8.svg": "/diabloweb-beta/static/media/f8.41446812c4008fecf199.svg",
@@ -17,13 +15,12 @@
     "static/media/f5.svg": "/diabloweb-beta/static/media/f5.1de08c027da92b703be7.svg",
     "static/media/shift.svg": "/diabloweb-beta/static/media/shift.f392ba6d969cd857333c.svg",
     "static/media/f7.svg": "/diabloweb-beta/static/media/f7.a84e27991e19b6a06892.svg",
-    "mpqcmp.worker.worker.js": "/diabloweb-beta/mpqcmp.worker.3d375ec87846300e2c02.worker.js",
     "index.html": "/diabloweb-beta/index.html",
     "main.e1368972.css.map": "/diabloweb-beta/static/css/main.e1368972.css.map",
-    "main.ae1f4ac0.js.map": "/diabloweb-beta/static/js/main.ae1f4ac0.js.map"
+    "main.981ba230.js.map": "/diabloweb-beta/static/js/main.981ba230.js.map"
   },
   "entrypoints": [
     "static/css/main.e1368972.css",
-    "static/js/main.ae1f4ac0.js"
+    "static/js/main.981ba230.js"
   ]
 }
