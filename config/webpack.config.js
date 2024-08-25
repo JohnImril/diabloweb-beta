@@ -719,7 +719,6 @@ module.exports = function (webpackEnv) {
 					navigateFallback:
 						paths.publicUrlOrPath.slice(0, -1) + "/index.html",
 					navigateFallbackAllowlist: [
-						// Включите только те URLs, которые соответствуют вашим требованиям
 						new RegExp("^/_"),
 						new RegExp("/[^/]+\\.[^/]+$"),
 					],
