@@ -1,11 +1,17 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "./reset.css";
-import * as serviceWorker from "./serviceWorker";
+import ReactDOM from "react-dom/client";
 
+import * as serviceWorker from "./serviceWorker";
 import App from "./App";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+import "./reset.css";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>
+);
 
 serviceWorker.register({
 	onUpdate() {},
