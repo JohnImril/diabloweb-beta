@@ -302,6 +302,10 @@ module.exports = function (webpackEnv) {
 			],
 		},
 		resolve: {
+			fallback: {
+				fs: false,
+				path: require.resolve("path-browserify"),
+			},
 			// This allows you to set a fallback for where webpack should look for modules.
 			// We placed these paths second because we want `node_modules` to "win"
 			// if there are any conflicts. This matches Node resolution mechanism.
@@ -362,20 +366,6 @@ module.exports = function (webpackEnv) {
 						options: {
 							filename: "[name].[contenthash].worker.js",
 						},
-					},
-				},
-				{
-					test: /Diablo\.jscc$/,
-					loader: "exports-loader",
-					options: {
-						exports: "default Diablo",
-					},
-				},
-				{
-					test: /DiabloSpawn\.jscc$/,
-					loader: "exports-loader",
-					options: {
-						exports: "default DiabloSpawn",
 					},
 				},
 				{
