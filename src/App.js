@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.scss";
 import classNames from "classnames";
-import ReactGA from "react-ga";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faDownload } from "@fortawesome/free-solid-svg-icons";
 import getPlayerName from "./api/savefile";
@@ -16,11 +15,6 @@ import CompressMpq from "./mpqcmp";
 import Peer from "peerjs";
 
 window.Peer = Peer;
-
-if (process.env.NODE_ENV === "production") {
-	ReactGA.initialize("UA-43123589-6");
-	ReactGA.pageview("/");
-}
 
 function reportLink(e, retail) {
 	const message =
@@ -376,12 +370,6 @@ class App extends React.Component {
 		this.setState({ dropping: 0 });
 
 		const retail = !!(file && !file.name.match(/^spawn\.mpq$/i));
-		if (process.env.NODE_ENV === "production") {
-			ReactGA.event({
-				category: "Game",
-				action: retail ? "Start Retail" : "Start Shareware",
-			});
-		}
 
 		this.setState({ loading: true, retail });
 
