@@ -718,11 +718,9 @@ module.exports = function (webpackEnv) {
 					exclude: [/\.map$/, /asset-manifest\.json$/],
 					navigateFallback:
 						paths.publicUrlOrPath.slice(0, -1) + "/index.html",
-					navigateFallbackBlacklist: [
-						// Exclude URLs starting with /_, as they're likely an API call
+					navigateFallbackAllowlist: [
+						// Включите только те URLs, которые соответствуют вашим требованиям
 						new RegExp("^/_"),
-						// Exclude URLs containing a dot, as they're likely a resource in
-						// public/ and not a SPA route
 						new RegExp("/[^/]+\\.[^/]+$"),
 					],
 				}),
