@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/diabloweb-beta/static/css/main.a2426174.css",
-    "main.js": "/diabloweb-beta/static/js/main.20bc0fb6.js",
+    "main.js": "/diabloweb-beta/static/js/main.8472afba.js",
     "static/media/Diablo.wasm": "/diabloweb-beta/static/media/Diablo.cb56740f765ad6b7b02d.wasm",
     "static/media/DiabloSpawn.wasm": "/diabloweb-beta/static/media/DiabloSpawn.652e7f070a6d92fe0890.wasm",
     "static/media/MpqCmp.wasm": "/diabloweb-beta/static/media/MpqCmp.702f81fdb4c1dce808b7.wasm",
@@ -21,10 +21,10 @@
     "static/media/f7.svg": "/diabloweb-beta/static/media/f7.a84e27991e19b6a06892.svg",
     "index.html": "/diabloweb-beta/index.html",
     "main.a2426174.css.map": "/diabloweb-beta/static/css/main.a2426174.css.map",
-    "main.20bc0fb6.js.map": "/diabloweb-beta/static/js/main.20bc0fb6.js.map"
+    "main.8472afba.js.map": "/diabloweb-beta/static/js/main.8472afba.js.map"
   },
   "entrypoints": [
     "static/css/main.a2426174.css",
-    "static/js/main.20bc0fb6.js"
+    "static/js/main.8472afba.js"
   ]
 }
