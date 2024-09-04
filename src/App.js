@@ -19,7 +19,9 @@ window.Peer = Peer;
 function reportLink(e, retail) {
 	const message =
 		(e.message || "Unknown error") + (e.stack ? "\n" + e.stack : "");
-	const url = new URL("https://github.com/d07RiV/diabloweb/issues/new");
+	const url = new URL(
+		"https://github.com/JohnImril/diabloweb-beta/issues/new"
+	);
 	url.searchParams.set(
 		"body",
 		`**Description:**
