@@ -56,13 +56,13 @@ Before using the `diabloweb-beta` branch, ensure you have:
 1. Start the development server for testing the beta version:
 
     ```bash
-    npm run dev
+    npm run start
     ```
 
 2. Open the browser and navigate to:
 
     ```
-    http://localhost:5173/diablo_web_beta/
+    http://localhost:3000/diabloweb-beta
     ```
 
 ### Building the Beta Version
