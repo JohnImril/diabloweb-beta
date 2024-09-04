@@ -952,8 +952,8 @@ class App extends React.Component {
 						source code reconstructed by GalaXyHaXz and devilution
 						team. The project page with information and links can be
 						found over here{" "}
-						<Link href="https://github.com/d07RiV/diabloweb">
-							https://github.com/d07RiV/diabloweb
+						<Link href="https://github.com/JohnImril/diabloweb-beta">
+							https://github.com/JohnImril/diabloweb-beta
 						</Link>
 					</p>
 					<p>
